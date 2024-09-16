@@ -1,0 +1,582 @@
+*{
+  margin: 0;
+  height: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#navigation-bar{
+    height: 45px;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 200;
+}
+#nav-right{
+    padding: 0 50px;
+}
+#nav-right a{
+    padding: 0 8px;
+    text-decoration: none;
+    color: black;
+}
+#nav-name{
+    padding-left:50px;
+}
+.header{
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+}
+.header h1{
+    font-size: 12vw;
+    display: inline;
+    font-weight: 600;
+}
+.blog-sections{
+    height: 100%;
+    width: 100%;
+   display: inline;
+} 
+#recent-blog{
+    height: 50vh;
+    margin: 10px 10px 10px 20px;
+    margin-bottom: 20px;
+   /* display: inline;*/
+   
+}
+#recent-title{
+    height: 20px;
+    width: 100%;
+
+   
+}
+.element{
+    margin-top: 15px;
+}
+#elem{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
+
+   
+ }
+/*.element{
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    background-color: aqua;
+   
+}*/
+#elem2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 10px;
+    height: 100%;
+    width: 100%;
+    margin-top: 15x;
+    display: flex;   
+}
+#elem3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100%;
+    width: 100%;
+    margin: 15px 10px;
+    display: flex;
+    
+}
+#elem4{
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 100%;
+    width: 100%;
+    margin: 20px 15px 20px 0;
+    display: flex;
+}
+#elem1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 100%;
+    width: 100%;
+}
+#elem1 .post{
+    margin-top: 10px;
+}
+#elem1-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#elem1-img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.post{
+    height: 12px;
+    width: 100%;
+    font-size: 12px;
+    color: rgb(115, 79, 120);
+    font-weight: 600;
+}
+.post-title
+{
+    height: 18px;
+    width: 100%;
+    margin: 10px 0;
+}
+#post-content-elem{
+    height: 24px;
+    width: 100%;
+    font-size: 11px;
+}
+#elem-about{
+    height: 17px;
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    gap: 14px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.design{
+    height: 15px;
+    width: 50px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(182, 51, 222);
+    background-color: rgb(242, 221, 246);
+    border-radius: 25%;
+}
+.research{
+    height: 15px;
+    width: 60px;
+    text-align: center;
+    margin-top: 15px;
+    columns: rgb(78, 78, 212);
+    background-color: rgb(226, 228, 251);
+    border-radius: 25%;
+}
+.presentation{
+    height: 15px;
+    width: 80px;
+    text-align: center;
+    margin-top: 15px;
+    columns: rgb(250, 86, 220);
+    background-color: rgb(249, 228, 245);
+    border-radius: 25%;
+}
+#elem2-img{
+    height: 90%;
+    width: 50%;
+    object-fit: cover;
+}
+#elem2-content{
+    margin: 0 10px;
+    width: 100%;
+ 
+}
+#post-content-elem2{
+    height: fit-content;
+    width: 100%;
+}
+#elem4-img{
+    height: 100%;
+    width: 50%;
+    
+}
+#elem4-content{
+    height: 100%;
+    width: 50%;
+    padding-left: 12px;
+    margin: 0 10px;
+}
+#elem4-para{
+    font-size: 11px;
+    height: fit-content;
+    width: 100%;
+}
+#all-blog{
+    height: 50vh;
+    width: 100%;
+    /*margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;*/
+    padding: 20px;
+    overflow-y: scroll;
+}
+#all-blog-title{
+    height: 30px;
+    width: 100%;  
+}
+#blog-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.blog-post{
+    height: 100%;
+    width: 100%;
+}
+.blog-post img{
+    height: 50%;
+    width: 100%;
+}
+
+.content{
+    font-size: 12px;
+    height: fit-content;
+    width: 100%;
+  
+}
+.leadership{
+    height: 15px;
+    width: 80px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(183, 0, 255);
+    background-color: rgb(238, 235, 249);
+    border-radius: 25%;
+}
+.management{
+    height: 15px;
+    width: 80px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(46, 0, 253);
+    background-color: rgb(231, 228, 245);
+    border-radius: 25%;
+}
+.product{
+    height: 15px;
+    width: 70px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(4, 253, 0);
+    background-color: rgb(228, 249, 223);
+    border-radius: 25%;
+}
+.frameworks{
+    height: 15px;
+    width: 90px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(253, 177, 0);
+    background-color: rgb(249, 237, 223);
+    border-radius: 25%;
+}
+.software{
+    height: 15px;
+    width: 140px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(253, 177, 0);
+    background-color: rgb(249, 237, 223);
+    border-radius: 25%;
+
+}
+.tools{
+    height: 15px;
+    width: 50px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(252, 0, 206);
+    background-color: rgb(247, 236, 246);
+    border-radius: 25%;
+}
+.prodcast{
+    height: 15px;
+    width: 70px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(59, 0, 252);
+    background-color: rgb(241, 242, 251);
+    border-radius: 25%;
+}
+.customersuccess{
+    height: 15px;
+    width: 120px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(59, 0, 252);
+    background-color: rgb(241, 242, 251);
+    border-radius: 25%;
+}
+.blog-post .post{
+    margin-top: 10px;
+}
+.footer-section{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+.footer-section a{
+    text-decoration: none;
+    color: rgb(96, 95, 95);
+    margin-left: 15px;
+    font-size: 13px
+}
+@media (max-width: 811px) {
+    .post{
+        font-size: 10px;
+    }
+    .post-title{
+        font-size: 12px;
+        margin: 2px 0;
+        padding: 0;
+    }
+    .header{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    #elem{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 30% 20% 20% 30%;
+        /grid-template-columns: 50% 50%;/
+        overflow-y: auto;
+     }
+     #elem1
+     {
+        height: 100%;
+        width: 100%;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 10px 0;
+     }
+     #elem2
+     {
+        height: 100%;
+        width: 100%;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 100px 0;
+        padding: 0;
+
+     }
+     
+     #elem3
+     {
+        height: 100%;
+        width: 100%;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 120px 0;
+        padding: 0;
+     }
+     #elem4
+     {
+        height: 100%;
+        width: 100%;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        display: inline;
+        margin: 140px 0;
+     }
+     #elem1-img{
+        height: 100%;
+        width: 100%;
+     }
+     #elem2-img{
+        height: 100%;
+        width: 100%;
+        
+        object-fit: cover;
+    }
+     #elem4-img{
+        height: 100%;
+        width: 100%;
+        padding-right: 10px;
+        
+     }
+     #elem4-content{
+        width: 100%;
+        padding: 0;
+        margin: 10px 0;
+     }
+     #post-content-elem{
+        height: 10px;
+        overflow: hidden;
+        /background-color: aqua;/
+     }
+     #elem4-para{
+        height: 15px;
+        overflow: hidden;
+     }
+     #elem2 #elem-about{
+       visibility: hidden;
+     }
+     #elem3 #elem-about{
+        visibility: hidden;
+      }
+      #elem-about{
+        height: fit-content;
+        margin: 0 5px; 
+        font-size: 10px;
+    }
+    .design{
+        height: fit-content;
+        margin-top: 8px;
+    }
+    .research{
+        height: fit-content;
+        margin-top: 8px;
+    }
+    .presentation{
+        height: fit-content;
+        margin-top: 8px;
+    }
+    #blog-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+    }
+    .post-title h3{
+        height: 20px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    .content{
+        margin: 10px 0;
+        height: 15px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 429px) {
+
+    .header{
+       border: 0;
+    }
+    #nav-right{
+        visibility: hidden;
+    }
+    #nav-name{
+        padding-left:20px;
+    }
+    #elem{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 50% 50% 50% 50%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        grid-template-columns: 100%;
+     }
+     #elem1
+     {
+        height: 100%;
+        width: 100%;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin: 20px 0;
+     }
+     #elem2
+     {
+        height: 100%;
+        width: 100%;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        display: inline;
+        padding: 0;
+        margin-top: 60px;
+     }
+     #elem3
+     {
+        height: 100%;
+        width: 100%;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        display: inline;
+        margin-top: 130px;
+     }
+     #elem4
+     {
+        height: 100%;
+        width: 100%;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+       margin-top: 200px;
+     }
+    
+     #elem1-img{
+        height: 60%;
+        width: 100%;
+     }
+     #elem2-img{
+        height: 70%;
+        width: 100%;
+        padding-right: 10px;
+        object-fit: cover;
+    }
+     #elem4-img{
+        height: 100%;
+        width: 100%;
+        padding-right: 10px; 
+     }
+     #elem2-content{
+        margin: 0;
+        padding-right: 10px;
+     }
+     #elem2 #elem-about{
+        visibility: visible; 
+        
+      }
+      #elem3 #elem-about{
+         visibility: visible;
+       }
+       #blog-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 5px;
+       }  
+       #post-content-elem{
+        height: max-content;
+        overflow:visible;
+        /background-color: aqua;/
+       }
+       #elem4-para{
+        height: max-content;
+        overflow: visible;
+       }
+       .post{
+        margin-top: 10px;
+       }
+}
